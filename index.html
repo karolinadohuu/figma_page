@@ -4,10 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Figma Landing Page</title>
     <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/105cef6c45.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/105cef6c45.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -22,8 +19,10 @@
       </nav>
     </header>
 
+
+<!-- Main Video -->
     <main>
-      <section>
+      <section class="main-video">
         <video width="350px" autoplay loop>
           <source src="https://tinyurl.com/figma-main-video" type="video/mp4" />
         </video>
@@ -36,11 +35,12 @@
 
       <!-- Design for web made easy -->
 
-      <section>
+      <section class="design-for-web">
         <video width="550px" autoplay loop>
           <source src="https://tinyurl.com/figma-middle-1" type="video/mp4" />
         </video>
-        <h2 class="design-heading">Design for the web made easy</h2>
+        <div>
+            <h2 class="design-heading">Design for the web made easy</h2>
         <p class="design-paragraph">
           Figma was built for the future of web. That’s why you’ll see features
           you won’t find elsewhere.
@@ -59,11 +59,12 @@
             express your brand
           </li>
         </ul>
+    </div>
       </section>
 
       <!-- Design platform for scale -->
 
-      <section id="design-scale">
+      <section id="design-scale" class="design-for-web">
         <div id="design-scale-div">
           <h1 class="design-heading">A design platform for scale</h1>
           <p class="design-paragraph">
@@ -80,10 +81,11 @@
 
       <!-- Automate and augument your work with plugins -->
 
-      <section>
+      <section class="design-for-web">
         <video width="500px" autoplay loop>
           <source src="https://tinyurl.com/figma-middle-2" type="video/mp4" />
         </video>
+        <div>
         <h1 class="design-heading">
           Automate and augment your work with Plugins
         </h1>
@@ -104,17 +106,19 @@
             private plugins within their company.
           </li>
         </ul>
+    </div>
       </section>
 
       <!-- Join the community -->
 
-      <section id="community">
+      <section id="community" class="join-community">
         <h2 class="design-heading">Join the community</h2>
         <p id="community-paragraph">
           Learn from others, share your work, and extend your tool set with a
           diverse group of designers, plugin creators, researchers,
           illustrators, content writers, and many more from around the world.
         </p>
+        <div>
         <img
           src="https://tinyurl.com/fig-community-1"
           width="400px"
@@ -133,6 +137,7 @@
           alt="brainstorms"
           class="img"
         />
+    </div>
         <a href=""
           ><button id="community-button">Browse Figma Community</button></a
         >
@@ -140,11 +145,11 @@
 
       <!-- try figma for free -->
 
-      <section id="try">
+      <section id="try" class="join-community">
         <h1>Try Figma for free.</h1>
         <a href=""><button>Continue with Google</button></a>
         <p>or</p>
-        <form action="">
+        <form action="" class="join-community">
           <input type="email" placeholder="Email" class="input" />
           <input type="password" placeholder="Password" class="input" />
         </form>
@@ -155,10 +160,10 @@
     <footer>
       <section class="footer-section">
         <img src="https://tinyurl.com/figma-svg" />
-        <p>Twitter</p>
-        <p>YouTube</p>
-        <p>Instagram</p>
-        <p>Facebook</p>
+        <p><i class="fab fa-twitter black"></i> Twitter</p>
+        <p><i class="fab fa-youtube black"></i> YouTube</p>
+        <p><i class="fab fa-instagram black"></i> Instagram</p>
+        <p><i class="fab fa-facebook-square black"></i> Facebook</p>
         <p>Manage Cookies</p>
       </section>
       <section class="footer-section">
