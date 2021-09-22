@@ -7,6 +7,8 @@ body, html {
 
 header {
     margin: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -118,3 +120,35 @@ footer {
     .footer-section {
         margin: 50px;
     }
+
+    /* Flexbox */
+ 
+.main-video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-for-web{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-community{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.black{
+    color: black;
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
