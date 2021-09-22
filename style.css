@@ -115,9 +115,11 @@ p {
 
 footer {
     background-color: #fafafa;
+    display: flex;
+    justify-content: space-between;
     }
 
-    .footer-section {
+.footer-section {
         margin: 50px;
     }
 
@@ -146,9 +148,4 @@ footer {
 .black{
     color: black;
     font-size: 20px;
-}
-
-footer{
-    display: flex;
-    justify-content: space-between;
 }
